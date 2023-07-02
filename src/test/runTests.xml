@@ -1,0 +1,57 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll">
+    <test name="all">
+        <classes>
+            <class name="sendRss.TestSikuli">
+                <methods>
+                    <include name="mains" />
+                    <include name="stoneFarm" />
+                    <include name="oreFarm" />
+                    <include name="foodFarm" />
+                    <include name="woodFarm" />
+                    <include name="rallyTest" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+<!--    <test name="allAgain">
+        <classes>
+            <class name="sendRss.TestSikuli">
+                <methods>
+                    <include name="foodFarm" />
+                    <include name="stoneFarm" />
+                    <include name="oreFarm" />
+                    <include name="mains" />
+                    <include name="woodFarm" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="allAgain3">
+        <classes>
+            <class name="sendRss.TestSikuli">
+                <methods>
+                    <include name="foodFarm" />
+                    <include name="stoneFarm" />
+                    <include name="oreFarm" />
+                    <include name="mains" />
+                    <include name="woodFarm" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="allAgain4">
+        <classes>
+            <class name="sendRss.TestSikuli">
+                <methods>
+                    <include name="foodFarm" />
+                    <include name="stoneFarm" />
+                    <include name="oreFarm" />
+                    <include name="mains" />
+                    <include name="woodFarm" />
+                </methods>
+            </class>
+        </classes>
+    </test>-->
+</suite>

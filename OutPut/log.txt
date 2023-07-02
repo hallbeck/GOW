@@ -1,0 +1,5 @@
+Jul 14, 2014 8:06:22 PM java.util.prefs.WindowsPreferences <init>
+WARNING: Could not open/create prefs root node Software\JavaSoft\Prefs at root 0x80000002. Windows RegCreateKeyEx(...) returned error code 5.
+[TestNG] Running:
+  C:\games\GOW\src\test\runTests.xml
+
